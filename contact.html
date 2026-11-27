@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a Quote | Gotham Arts HD — Glendale, AZ</title>
+  <meta name="description" content="Request a quote from Gotham Arts HD in Glendale, serving Phoenix and the Valley. Call (623) 376-7578 or email contact@gothamartshd.com.">
+  <meta name="theme-color" content="#0b0a09">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img src="assets/images/logo-gold.png" alt="Gotham Arts HD" width="225" height="30">
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="dance-recitals.html">Dance Recitals</a></li>
+<li><a href="live-events.html">Live Events</a></li>
+<li><a href="corporate-legal.html">Corporate &amp; Legal</a></li>
+<li><a href="work.html">Work</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+</ul>
+      </nav>
+      <div class="header-cta">
+        <a class="header-phone" href="tel:+16233767578">(623) 376-7578</a>
+        <a class="btn btn-primary btn-sm" href="#quote-form">Request a Quote</a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="kicker">Contact · Phoenix &amp; Glendale</p>
+        <h1>Request a quote for your next recital or event</h1>
+        <p class="lede">Share a few details below, or call and email us directly. We typically reply within one business day with availability and next steps.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-heading">
+      <div class="wrap contact-grid">
+        <div class="contact-facts">
+          <div>
+            <h2 id="contact-heading">Call or email</h2>
+            <p><a href="tel:+16233767578">(623) 376-7578</a></p>
+            <p><a href="mailto:contact@gothamartshd.com">contact@gothamartshd.com</a></p>
+            <p class="fine">Best for same-day questions about dates, venues, or multi-show weekends.</p>
+          </div>
+          <div>
+            <h2>Studio address</h2>
+            <address>
+              Gotham Arts HD<br>
+              7942 W Bell Rd, Suite C5-615<br>
+              Glendale, AZ 85308
+            </address>
+            <p class="fine">Serving Phoenix, Glendale, and studios across the Valley.</p>
+          </div>
+          <div>
+            <h2>Prefer email?</h2>
+            <p>You can also send a quote request with this <a id="mailto-fallback" href="mailto:contact@gothamartshd.com?subject=Quote%20request">email shortcut</a>. If you have started the form, the link can include the details you entered.</p>
+          </div>
+        </div>
+
+        <div>
+          <div id="quote-success" class="form-success" tabindex="-1">
+            <h2>Thank you — we have your details</h2>
+            <p>For the fastest reply, call <a href="tel:+16233767578">(623) 376-7578</a> or email <a href="mailto:contact@gothamartshd.com">contact@gothamartshd.com</a>. You can also <a data-success-mailto href="mailto:contact@gothamartshd.com">open a pre-filled email</a> with the information you entered here.</p>
+          </div>
+
+          <form class="form" id="quote-form" action="#" method="post" novalidate>
+            <p class="form-note">Tell us about the show — we will confirm dates and send a quote. Prefer the phone? Call <a href="tel:+16233767578">(623) 376-7578</a>.</p>
+
+            <div class="form-row">
+              <div class="field" id="field-name">
+                <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+                <p class="error" role="alert">Please enter your name.</p>
+              </div>
+              <div class="field" id="field-email">
+                <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+                <p class="error" role="alert">Please enter a valid email address.</p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field" id="field-phone">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(623) 376-7578">
+                <p class="error" role="alert">Please enter a phone number with at least 10 digits, or leave this blank.</p>
+              </div>
+              <div class="field" id="field-service">
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option>Dance recital</option>
+                  <option>Live event</option>
+                  <option>Corporate video</option>
+                  <option>Sales or product demo</option>
+                  <option>Meeting or legal videography</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field" id="field-event-date">
+                <label for="event-date">Event or recital date</label>
+                <input id="event-date" name="event-date" type="date">
+              </div>
+              <div class="field" id="field-organization">
+                <label for="organization">Studio or company</label>
+                <input id="organization" name="organization" type="text" autocomplete="organization">
+              </div>
+            </div>
+
+            <div class="field" id="field-venue">
+              <label for="venue">Venue or city</label>
+              <input id="venue" name="venue" type="text" placeholder="Phoenix, Glendale, or a venue name">
+            </div>
+
+            <div class="field" id="field-message">
+              <label for="message">Project details <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" required placeholder="A few words about the recital, event, or project."></textarea>
+              <p class="error" role="alert">Please tell us a little about your project.</p>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Send quote request</button>
+              <a class="btn btn-ghost" href="mailto:contact@gothamartshd.com">Or email instead</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html"><img src="assets/images/logo-gold.png" alt="Gotham Arts HD" width="200" height="27"></a>
+        <p>Dance recital films, live events, and corporate video from Glendale, serving Phoenix and the Valley.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>
+          <li><a href="dance-recitals.html">Dance Recitals</a></li>
+          <li><a href="live-events.html">Live Events</a></li>
+          <li><a href="corporate-legal.html">Corporate &amp; Legal</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p><a href="tel:+16233767578">(623) 376-7578</a></p>
+        <p><a href="mailto:contact@gothamartshd.com">contact@gothamartshd.com</a></p>
+        <p>7942 W Bell Rd, Suite C5-615<br>
+        Glendale, AZ 85308</p>
+      </div>
+    </div>
+    <div class="wrap footer-legal">
+      <p>© 2026 Gotham Arts HD · Phoenix, Arizona</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
